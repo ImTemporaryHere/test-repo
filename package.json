@@ -1,0 +1,26 @@
+{
+  "name": "test-repo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@ImTemporaryHere"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImTemporaryHere/test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImTemporaryHere/test-repo/issues"
+  },
+  "homepage": "https://github.com/ImTemporaryHere/test-repo#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
