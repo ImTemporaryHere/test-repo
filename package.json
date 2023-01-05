@@ -1,14 +1,13 @@
 {
   "name": "test-repo",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ImTemporaryHere"
   },
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --sourceMap -d"
   },
   "repository": {
     "type": "git",
