@@ -1,6 +1,6 @@
 {
-  "name": "@ImTemporaryHere/test-repo",
-  "version": "1.0.0",
+  "name": "@imtemporaryhere/test-repo",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "publishConfig": {
