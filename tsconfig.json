@@ -7,8 +7,10 @@
 		"strict": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true
 	},
+	"include": ["package.json", "*.ts"],
 	"exclude": [
 		".eslintrc",
 		".gitignore",
@@ -16,4 +18,5 @@
 		"package-lock.json",
 		"tsconfig.json"
 	]
+
 }
