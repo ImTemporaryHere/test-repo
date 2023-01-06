@@ -23,6 +23,8 @@ jobs:
               npm ci
               npm run build
         name: 'Building and that is all'
+      - run: cp package.json README.md ./dist
+        name: 'Copying files to build folder'
       - run: |
           cd ./dist
           npm publish --ignore-scripts
